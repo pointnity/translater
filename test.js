@@ -37,3 +37,6 @@ test('encodeECPrivateKeyASN', function(t) {
         parameters: secp256k1Parameters,
         publicKey: { unused: 0, data: new Buffer(keys.rawPublic, 'hex') }
     }
+
+
+    var privateKeyPEM = ECPrivateKeyASN.encode(privateKeyObject, 'pem', pemOptions)
