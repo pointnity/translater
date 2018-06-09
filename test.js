@@ -24,3 +24,8 @@ var keys = {
 }
 
 var keyEncoder = new KeyEncoder('secp256k1')
+
+test('encodeECPrivateKeyASN', function(t) {
+    t.plan(3)
+
+    var secp256k1Parameters = [1, 3, 132, 0, 10],
