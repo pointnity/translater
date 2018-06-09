@@ -33,3 +33,4 @@ test('encodeECPrivateKeyASN', function(t) {
 
     var privateKeyObject = {
         version: new BN(1),
+        privateKey: new Buffer(keys.rawPrivate, 'hex'),
