@@ -11,3 +11,4 @@ var keys = {
     'MHQCAQEEIIRAVcyhPv14znmkw6TFq6XbDr63rp1WkGwD0zPFZo1boAcGBSuBBAAK\n' +
     'oUQDQgAEFHt56eHdMyTO6hFf9AN7bId8c3dxMUGL+ytxPv/Q9QIye5I4YVgb1VNe\n' +
     '6uAGdlJp9AT19cUiFOlyGwSqfQQKdQ==\n' +
+    '-----END EC PRIVATE KEY-----',
