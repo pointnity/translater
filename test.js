@@ -41,3 +41,24 @@ test('encodeECPrivateKeyASN', function(t) {
     var privateKeyPEM = ECPrivateKeyASN.encode(privateKeyObject, 'pem', pemOptions)
     t.equal(privateKeyPEM, keys.pemPrivate, 'encoded PEM private key should match the OpenSSL reference')
     t.equal(privateKeyPEM, keys.pemPrivate, 'encoded PEM private key should match the OpenSSL reference')
+
+test('encodeSubjectPublicKeyInfoASN', function(t) {
+    t.plan(1)
+
+    var secp256k1Parameters = [1, 3, 132, 0, 10],
+        pemOptions =  {label: 'PUBLIC KEY'}
+
+    var publicKeyObject = {
+        algorithm: {
+            id: [1, 2, 840, 10045, 2, 1],
+            curve: secp256k1Parameters
+        },
+        pub: {
+            unused: 0,
+            data: new Buffer(keys.rawPublic, 'hex')
+        }
+    }
+
+    var publicKeyPEM = SubjectPublicKeyInfoASN.encode(publicKeyObject, 'pem', pemOptions)
+    t.equal(publicKeyPEM, keys.pemPublic, 'encoded PEM public key should match the OpenSSL reference')
+})
