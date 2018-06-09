@@ -32,3 +32,4 @@ test('encodeECPrivateKeyASN', function(t) {
         pemOptions =  {label: 'EC PRIVATE KEY'}
 
     var privateKeyObject = {
+        version: new BN(1),
