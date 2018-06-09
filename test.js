@@ -38,5 +38,5 @@ test('encodeECPrivateKeyASN', function(t) {
         publicKey: { unused: 0, data: new Buffer(keys.rawPublic, 'hex') }
     }
 
-
     var privateKeyPEM = ECPrivateKeyASN.encode(privateKeyObject, 'pem', pemOptions)
+    t.equal(privateKeyPEM, keys.pemPrivate, 'encoded PEM private key should match the OpenSSL reference')
