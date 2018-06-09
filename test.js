@@ -16,3 +16,4 @@ var keys = {
     'MC4CAQEEIIRAVcyhPv14znmkw6TFq6XbDr63rp1WkGwD0zPFZo1boAcGBSuBBAAK\n' +
     '-----END EC PRIVATE KEY-----',
     pemPublic: '-----BEGIN PUBLIC KEY-----\n' +
+    'MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEFHt56eHdMyTO6hFf9AN7bId8c3dxMUGL\n' +
