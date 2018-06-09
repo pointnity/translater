@@ -13,3 +13,4 @@ var keys = {
     '6uAGdlJp9AT19cUiFOlyGwSqfQQKdQ==\n' +
     '-----END EC PRIVATE KEY-----',
     pemCompactPrivate: '-----BEGIN EC PRIVATE KEY-----\n' +
+    'MC4CAQEEIIRAVcyhPv14znmkw6TFq6XbDr63rp1WkGwD0zPFZo1boAcGBSuBBAAK\n' +
