@@ -3,3 +3,5 @@ var test = require('tape'),
     ECPrivateKeyASN = KeyEncoder.ECPrivateKeyASN,
     SubjectPublicKeyInfoASN = KeyEncoder.SubjectPublicKeyInfoASN,
     BN = require('bn.js')
+
+var keys = {
