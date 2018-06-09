@@ -12,3 +12,4 @@ var keys = {
     'oUQDQgAEFHt56eHdMyTO6hFf9AN7bId8c3dxMUGL+ytxPv/Q9QIye5I4YVgb1VNe\n' +
     '6uAGdlJp9AT19cUiFOlyGwSqfQQKdQ==\n' +
     '-----END EC PRIVATE KEY-----',
+    pemCompactPrivate: '-----BEGIN EC PRIVATE KEY-----\n' +
