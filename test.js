@@ -15,3 +15,4 @@ var keys = {
     pemCompactPrivate: '-----BEGIN EC PRIVATE KEY-----\n' +
     'MC4CAQEEIIRAVcyhPv14znmkw6TFq6XbDr63rp1WkGwD0zPFZo1boAcGBSuBBAAK\n' +
     '-----END EC PRIVATE KEY-----',
+    pemPublic: '-----BEGIN PUBLIC KEY-----\n' +
