@@ -35,3 +35,4 @@ test('encodeECPrivateKeyASN', function(t) {
         version: new BN(1),
         privateKey: new Buffer(keys.rawPrivate, 'hex'),
         parameters: secp256k1Parameters,
+        publicKey: { unused: 0, data: new Buffer(keys.rawPublic, 'hex') }
