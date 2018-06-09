@@ -18,3 +18,4 @@ var keys = {
     pemPublic: '-----BEGIN PUBLIC KEY-----\n' +
     'MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEFHt56eHdMyTO6hFf9AN7bId8c3dxMUGL\n' +
     '+ytxPv/Q9QIye5I4YVgb1VNe6uAGdlJp9AT19cUiFOlyGwSqfQQKdQ==\n' +
+    '-----END PUBLIC KEY-----',
